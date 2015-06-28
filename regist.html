@@ -8,40 +8,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-default">
-      <div class="containar-fluid">
-        <div class"navbar-header">
-          <a href="index.html" class="navbar-brand">ISM HPCCOM 2015</a>
-        <div>
-      <ul class="nav navbar-nav">
-        <li class="active">
-          <a href="index.html"><span class="glyphicon glypicon-home"></span>HOME</a>
-        </li>
-        <li>
-          <a href="cfp.html"><span class="glyphicon glypicon-home"></span>Call for Papers</a>
-        </li>
-        <li>
-          <a href="team.html"><span class="glyphicon glypicon-home"></span>Chairs and Committee</a>
-        </li>
-        <li>
-          <a href="index.html#speakers"><span class="glyphicon glypicon-home"></span>Speakers</a>
-        </li>
-        <li>
-          <a href="program.html"><span class="glyphicon glypicon-home"></span>Program</a>
-        </li>
-        <li>
-          <a href="regist.html"><span class="glyphicon glypicon-home"></span>Registration</a>
-        </li>
-        <li>
-          <a href="index.html#events"><span class="glyphicon glypicon-home"></span>Related Events</a>
-        </li>
-        <li>
-          <a href="venue.html"><span class="glyphicon glypicon-home"></span>Venue</a>
-        </li>
-      </ul>
-      </div>
-    </nav>
-
+    <div id="header_menue"></div>
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-1"></div>
@@ -61,8 +28,16 @@
 
     </div> <!-- container -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+      $("#header_menue").load("./menue.html");
+      })
+    </script>
+
   </body>
 
 </html>
