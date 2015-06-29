@@ -1,8 +1,7 @@
 <script type="text/javascript">
   $(function(){
   var url = location.pathname.split("/");
-  var html = url[url.length-1];
-  var activePage = html.replace(/.html/g,"");
+  var activePage = url[url.length-1].replace(/.html/g,"");
   $('#navList').children().each(function(){
   if($(this).attr("id") == activePage){
   $(this).addClass("active");
