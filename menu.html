@@ -2,14 +2,12 @@
   $(function(){
   var url = location.pathname.split("/");
   var activePage = url[url.length-1].replace(/.html/g,"");
-  $('#navList').children().each(function(){
   if($(this).attr("id") == activePage){
   $(this).addClass("active");
-  } else {
-
+  } else {  
   }
   });
-  });
+});
 </script>
 <nav class="navbar navbar-default">
   <div class="containar-fluid">
