@@ -1,5 +1,6 @@
 body {
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .table_title { 
@@ -10,3 +11,31 @@ body {
  font-style: italic;
  font-size: 85%;
 }
+
+header.jumbotron {
+  background: url("../files/top_banner.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: #000000;
+}
+header .container {  
+  margin-top: 8%;
+}
+
+header .midashi-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 0;
+}
+
+header .midashi-btn:hover {
+  color: #0089ff;
+  border-color: #0089ff;
+}
+
+.navbar-form {
+  padding-right: 30px;
+}
+
+
+
